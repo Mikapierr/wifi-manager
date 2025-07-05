@@ -1,0 +1,93 @@
+🚀 WiFi Manager - GitHub'a Yükleme Rehberi
+==========================================
+
+📦 Hazır Dosya: C:\Users\lowsk\Desktop\aaa\WiFiManager-Upload.zip
+
+🌐 GITHUB WEB SİTESİNDEN YÜKLEME ADIMLARI:
+=========================================
+
+1️⃣ GITHUB'DA REPOSITORY OLUŞTUR:
+   • GitHub.com'a git
+   • Sağ üstte "+" tıkla
+   • "New repository" seç
+   • Repository name: wifi-manager
+   • Description: Android WiFi network manager with root access
+   • Public seç
+   • "Create repository" tıkla
+
+2️⃣ İLK YÜKLEME:
+   • Yeni oluşan repo sayfasında
+   • "uploading an existing file" linkine tıkla
+   • Ya da "Add file" > "Upload files" tıkla
+
+3️⃣ DOSYALARI YÜKLE:
+   
+   Seçenek A - ZIP Yükleme:
+   • WiFiManager-Upload.zip dosyasını sürükle
+   • Otomatik açılacak
+   
+   Seçenek B - Manuel Yükleme:
+   • WifiManager klasörünü aç
+   • Tüm dosyaları seç (Ctrl+A)
+   • GitHub sayfasına sürükle
+
+4️⃣ COMMIT:
+   • Commit message: "Initial commit - WiFi Manager Android App"
+   • Description: "
+     - Root-enabled WiFi network management
+     - Device blocking and bandwidth limiting
+     - Material Design 3 UI
+     - ARP scanning and device detection
+   "
+   • "Commit new files" tıkla
+
+5️⃣ GITHUB ACTIONS AKTİF ET:
+   • Repo ana sayfasına git
+   • "Actions" sekmesine tıkla
+   • "I understand my workflows" tıkla
+   • Otomatik build başlayacak!
+
+🎯 SONUÇ:
+========
+✅ GitHub Actions otomatik APK build edecek
+✅ Actions > Artifacts'den APK indirebilirsin
+✅ Her commit'te otomatik build
+
+📁 DOSYA YAPISI ŞÖYLE OLACAK:
+============================
+wifi-manager/
+├── .github/workflows/build.yml
+├── app/
+│   ├── src/main/...
+│   └── build.gradle
+├── gradle/
+├── build.gradle
+├── README.md
+└── diğer dosyalar...
+
+🔗 REPO ADRESI:
+==============
+https://github.com/KULLANICI_ADIN/wifi-manager
+
+⚡ HIZLI ALTERNATİF:
+==================
+Eğer zip yükleme çalışmazsa:
+
+1. Klasörü aç: C:\Users\lowsk\Desktop\aaa\WifiManager
+2. Tüm dosyaları seç (Ctrl+A)
+3. Kopyala (Ctrl+C)
+4. GitHub'da "Create new file" tıkla
+5. Dosya adı yaz ve içeriği yapıştır
+6. Her dosya için tekrarla
+
+📞 YARDIM:
+=========
+• GitHub.com üzerinde görsel arayüz çok kolay
+• Dosyaları sürükle-bırak yapabilirsin
+• Hata olursa refresh yap ve tekrar dene
+
+🎉 BAŞARI!
+=========
+Yükleme tamamlandığında otomatik APK build başlayacak!
+Build süresi: ~5-10 dakika
+APK boyutu: ~15-25 MB
